@@ -1,0 +1,55 @@
+body {
+    background-color: #ffd484; /* Gold background color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-color: #fcac4a; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8B0000; /* Crimson red color */
+    text-align: center;
+  }
+  
+  p {
+    color: #8B4513; /* Saddle brown color */
+    text-align: center;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  label {
+    color: #8B4513; /* Saddle brown color */
+  }
+  
+  input[type="text"], input[type="submit"] {
+    margin: 10px 0;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8B0000; /* Crimson red color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="text"]:focus, input[type="submit"]:hover {
+    background-color: #8B0000; /* Dark red color on hover */
+  }
+  
